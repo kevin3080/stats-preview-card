@@ -29,9 +29,9 @@ function App() {
           {
             (windowWidth >= 1132) 
             ?
-              <Image src="../public/image-header-desktop.jpg"/>
+              <Image src="/public/image-header-desktop.jpg"/>
             :
-              <Image src="../public/image-header-mobile.jpg"/>
+              <Image src="/public/image-header-mobile.jpg"/>
             
           }
         </Filter>
