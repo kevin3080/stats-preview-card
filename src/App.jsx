@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css'
 import styled from 'styled-components'
+import desktop from '../public/image-header-desktop.jpg'
+import mobile from '../public/image-header-mobile.jpg'
+
 
 
 function App() {
@@ -29,9 +32,9 @@ function App() {
           {
             (windowWidth >= 1132) 
             ?
-              <Image src="/public/image-header-desktop.jpg" alt='desktop'/>
+              <Image src={desktop} alt='desktop'/>
             :
-              <Image src="/public/image-header-mobile.jpg" alt='mobile'/>
+              <Image src={mobile} alt='mobile'/>
             
           }
         </Filter>
